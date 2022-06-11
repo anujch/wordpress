@@ -1,0 +1,15 @@
+ 6  ls
+    7  cd "C:\Users\HP\Downloads\wordpress-5.9.3"
+    8  git config --global user.name anuj
+    9  git config --global user.email "anujch0001@gmail.com"
+   10  touch .gitignore
+   11  git init
+   12  git add .
+   13  git commit -m "initial commit"
+   14  git status
+   16  git remote add origin git@github.com:anujch/wordpress.git
+   17  git push origin master
+   18  ssh-keygen -t rsa -b 4096 -C "anujch0001@gmail.com"
+   19  cat c/Users/HP/.ssh/id_rsa.pub
+   20  cat /c/Users/HP/.ssh/id_rsa.pub
+   21  git push origin master
